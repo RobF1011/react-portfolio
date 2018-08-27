@@ -1,0 +1,9 @@
+#contact p, #contact p a {
+  color: #fff;
+  font-size: 18px;
+}
+
+#contact img {
+  max-width: 320px;
+  width: 100%;
+}

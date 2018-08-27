@@ -1,0 +1,74 @@
+[  
+   {  
+      "slug":"email-campaign-dashboard",
+      "name":"ASP.NET Email Stats Application",
+      "description":"An application that pulls in email campaign stats from a SQL database with filters for viewing specific sets of data. Written in VB.NET using Visual Studio.",
+      "skills":"ASP.NET MVC, SQL, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/email-campaign-dashboard",
+      "previewLink":"",
+      "thumbnail":"https://robf.me/img/campaign-dashboard.jpg"
+   },
+   {  
+      "slug":"hsbc-deal-importer",
+      "name":"ASP.NET HSBC Deal Importer Agent",
+      "description":"An agent written in ASP.NET (VB) that scans a database for newly uploaded files, processes them and inserts into a SQL database",
+      "skills":"ASP.NET, SQL",
+      "githubLink":"https://github.com/RobF1011/hsbc-deal-importer",
+      "previewLink":"",
+      "thumbnail":""
+   },
+   {  
+      "slug":"ab-navbar",
+      "name":"Shopify Navbar - Alexandre Birman",
+      "description":"A responsive navigation bar for alexandrebirman.com, built for Shopify",
+      "skills":"Shopify, Liquid, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/ab-navbar",
+      "previewLink":"https://alexandrebirman.com",
+      "thumbnail":"https://robf.me/img/ab-nav.jpg"
+   },
+   {  
+      "slug":"stoneshot-website",
+      "name":"StoneShot Website",
+      "description":"The US website for StoneShot, built as a WordPress theme from scratch",
+      "skills":"WordPress, PHP, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/StoneShot-Website",
+      "previewLink":"https://us.stoneshot.com",
+      "thumbnail":"https://robf.me/img/ss-website.jpg"
+   },
+   {  
+      "slug":"react-form-builder",
+      "name":"React Form Builder (WIP)",
+      "description":"A React app that allows you to create web forms by accessing an API. React app is integrated inside an existing ASP.NET MVC application.",
+      "skills":"React, ASP.NET, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/react-form-builder",
+      "previewLink":"",
+      "thumbnail":""
+   },
+   {  
+      "slug":"hsbc-institutional-site",
+      "name":"HSBC Institutional Website",
+      "description":"A microsite for HSBC AMG Institutional, using classic ASP",
+      "skills":"ASP, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/HSBC-institutional-site",
+      "previewLink":"http://info.emfunds.us.hsbc.com/institutional",
+      "thumbnail":"https://robf.me/img/hsbc-amg.jpg"
+   },
+   {  
+      "slug":"ss-preference-center",
+      "name":"StoneShot Preference Center",
+      "description":"A dynamic email preference center, built with classic ASP",
+      "skills":"ASP, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/preference-center",
+      "previewLink":"",
+      "thumbnail":"https://robf.me/img/ss-pref.jpg"
+   },
+   {  
+      "slug":"survey-asp-ipad",
+      "name":"iPad Survey Form",
+      "description":"A survey form, optimized for iPad, using Classic ASP and VBScript.",
+      "skills":"ASP, HTML, CSS, JavaScript",
+      "githubLink":"https://github.com/RobF1011/survey-asp-ipad",
+      "previewLink":"https://robf1011.github.io/survey-asp-ipad/survey-compiled.html",
+      "thumbnail":"https://robf.me/img/ss-ipad-survey.jpg"
+   }
+]

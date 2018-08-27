@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3f51b5;
+  /*background-image: linear-gradient(to bottom right, #3f51b5, #5b6ed5);*/
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.center {
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Orbitron', sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+main {
+  margin-bottom: 70px;
+}
+
+
+
+
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  -webkit-animation: fade-in 0.3s forwards; /* Safari 4+ */
+  -moz-animation:    fade-in 0.3s forwards; /* Fx 5+ */
+  -o-animation:      fade-in 0.3s forwards; /* Opera 12+ */
+  animation:         fade-in 0.3s forwards; /* IE 10+, Fx 29+ */
+}

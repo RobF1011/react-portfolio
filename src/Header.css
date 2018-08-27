@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    background: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+header h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #009688;
+}
+header .icons {
+  font-size: 2rem;
+}
+header .icons a {
+  color: #3f51b5;
+}
+header .icons a:first-child {
+  margin-right: 20px;
+}
