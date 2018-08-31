@@ -1,12 +1,3 @@
-/*body.home-selected, body.home-selected nav:before  {
-  background: #3f51b5;
-}
-body.portfolio-selected, body.portfolio-selected nav:before {
-  background: #3f51b5;
-}
-body.contact-selected, body.contact-selected nav:before {
-  background: #3f51b5;
-}*/
 nav {
   background: #fff;
   padding: 15px 20px;
@@ -15,7 +6,6 @@ nav {
   width: 100%;
   left: 50%;
   transform: translate(-50%, 0);
-  /*border-radius: 8px 8px 25px 25px;*/
   box-shadow: 0px -2px 10px rgba(0,0,0,0.2);
   display: flex;
   justify-content: space-evenly;
@@ -57,19 +47,6 @@ nav a:nth-child(3) .circle {
 nav a .circle.tapped {
   animation: circletap .3s forwards;
 }
-/*nav:before {
-    content: '';
-    width: 80px;
-    height: 80px;
-    border-radius: 30% 30% 50% 50%;
-    position: absolute;
-    top: -60%;
-    left: 25%;
-    transform: translatex(-50%);
-    z-index: 1;
-    transition: all 0.3s;
-    transition-delay: 0.2s;
-}*/
 nav:after {
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;

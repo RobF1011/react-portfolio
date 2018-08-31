@@ -23,7 +23,7 @@ class Contact extends React.Component {
           <p>You can get in touch with me by email at:</p>
           <p><a href="mailto:robert.franceschini@gmail.com">robert.franceschini@gmail.com</a></p>
           <p>Or download my resume below!</p>
-          <a href="https://robf.me/resume/RFResume2018.pdf" target="_blank"><img src="https://robf.me/img/RFResume2018.jpg"/></a>
+          <a href="https://robf.me/resume/RFResume2018.pdf" target="_blank" rel="noopener noreferrer"><img src="https://robf.me/img/RFResume2018.jpg" alt="Resume"/></a>
         </div>
       </section>
     );

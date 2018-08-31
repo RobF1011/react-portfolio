@@ -22,7 +22,6 @@ class Nav extends React.Component {
   }
 
   clickHdl1() {
-    console.log("click");
     let styleSheet = document.styleSheets[0];
  
     let animationName = `animation${Math.round(Math.random() * 100)}`;

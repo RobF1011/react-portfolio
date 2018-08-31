@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import data from './data/projects.json'
 
 class ProjectList extends Component {
@@ -17,14 +17,14 @@ componentWillMount() {
         let projects = data.map((project) => {
             return (
               // <Link key={project.slug} to={`/projects/${project.slug}`}>
-                <article>
+                <article key={project.name}>
                     <a href={project.githubLink} target="_blank"><h2>{project.name}</h2></a>
                     <p className="skills">Skills used: {project.skills}</p>
                     <p>{project.description}</p>
                     <img alt="" src={project.thumbnail ? project.thumbnail : 'https://robf.me/img/no-preview.jpg'}/>
                     <div className="link-icons">
-                      <a href={project.githubLink} target="_blank"><i class="fab fa-github"></i></a>
-                      {project.previewLink ? <a href={project.previewLink} target="_blank"><i class="far fa-eye"></i></a> : ''}
+                      <a href={project.githubLink} target="_blank"><i className="fab fa-github"></i></a>
+                      {project.previewLink ? <a href={project.previewLink} target="_blank"><i className="far fa-eye"></i></a> : ''}
                     </div> 
                 </article>
               // </Link>
