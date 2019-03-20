@@ -14,6 +14,9 @@ header .icons {
 header .icons a {
   color: #3f51b5;
 }
-header .icons a:first-child {
+header .icons a {
   margin-right: 20px;
+}
+header .icons a:last-child {
+  margin-right: 0;
 }

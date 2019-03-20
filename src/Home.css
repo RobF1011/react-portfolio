@@ -14,10 +14,16 @@
 #home ul li {
   color: #fff;
 }
-#home img {
+#home .circle {
+  width: 208px;
+  height: 208px;
+  background-color: #fff;
   border-radius: 50%;
-  border: 4px solid #fff;
+  margin: 30px auto;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-  margin-top: 40px;
-  margin-bottom: 20px;
+}
+#home img {
+  width: 200px;
+  border-radius: 50%;
+  padding-top: 4px;
 }

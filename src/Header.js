@@ -9,6 +9,7 @@ const Header = () => (
         <div className="icons">
           <a href="https://www.linkedin.com/in/robfranceschini/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
           <a href="https://github.com/RobF1011/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+          <a href="https://codepen.io/robf1011/pens/public/" target="_blank" rel="noopener noreferrer"><i class="fab fa-codepen"></i></a>
         </div>
       </div>
     </header>

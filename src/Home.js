@@ -19,8 +19,10 @@ class Home extends React.Component {
     return(
       <section id="home">
         <div className="container fade-in center">
-          <img src="https://robf.me/img/rob.jpg" alt="Rob Franceschini"/>
-          <p>Hi, I'm Rob, and I love building things for the web! I have great experience with tons of amazing technologies including:</p> 
+          <div className="circle">
+            <img src="https://robf.dev/img/rob_japan.jpg" alt="Rob Franceschini"/>
+          </div>
+          <p>Hi, I'm Rob, a full stack web developer that loves building things for the web! I have great experience with tons of amazing technologies including:</p> 
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -28,13 +30,14 @@ class Home extends React.Component {
               <li>JQuery</li>
               <li>React</li>
               <li>ASP</li>
-              <li>.NET</li>
-              <li>VBScript</li>
+              <li>VB.NET</li>
+              <li>SQL</li>
               <li>WordPress</li>
-              <li>Shopify</li>
+              <li>Shopify (Liquid)</li>
               <li>Adobe Creative Suite</li>
               <li>and more!</li>
             </ul>
+            <p>Check out the Projects tab for some of my latest projects, but many more are available to show privately. Be sure to also take a look at my GitHub, CodePen, LinkedIn via the icons up top!</p>
         </div>
       </section>
     );

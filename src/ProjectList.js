@@ -12,7 +12,7 @@ constructor() {
  };
 }
 
-componentWillMount() {
+componentDidMount() {
 
         let projects = data.map((project) => {
             return (
@@ -21,7 +21,7 @@ componentWillMount() {
                     <a href={project.githubLink} target="_blank"><h2>{project.name}</h2></a>
                     <p className="skills">Skills used: {project.skills}</p>
                     <p>{project.description}</p>
-                    <img alt="" src={project.thumbnail ? project.thumbnail : 'https://robf.me/img/no-preview.jpg'}/>
+                    <img alt="" src={project.thumbnail ? project.thumbnail : 'https://robf.dev/img/no-preview.jpg'}/>
                     <div className="link-icons">
                       <a href={project.githubLink} target="_blank"><i className="fab fa-github"></i></a>
                       {project.previewLink ? <a href={project.previewLink} target="_blank"><i className="far fa-eye"></i></a> : ''}

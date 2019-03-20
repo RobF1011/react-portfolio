@@ -1,11 +1,8 @@
 section#projects {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-section#projects::after {
-  content: "";
-  flex: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(250px, auto);
 }
 section#projects a {
   width: 100%;
@@ -13,13 +10,9 @@ section#projects a {
   color: #000;
 }
 section#projects article {
-  box-sizing: border-box;
-  width: 100%;
-  position: relative;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
-  margin-bottom: 20px;
   background-color: #fff;
   box-shadow: 1px 1px 5px rgba(0,0,0,.3);
 }
@@ -41,20 +34,4 @@ section#projects i {
   font-size: 36px;
   margin-right: 20px;
   color: #009688;
-}
-
-@media (min-width: 768px) {
-  section#projects article {
-    width: 49%;
-  }
-  section#projects article:last-child {
-    margin-left: 2%;
-  }
-}
-
-@media (min-width: 992px) {
-  section#projects article {
-    width: 32%;
-  }
-  
 }

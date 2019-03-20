@@ -11,7 +11,7 @@ constructor() {
  };
 }
 
-componentWillMount() {
+componentDidMount() {
 
 
         const project = data.find( project => project.slug === this.props.projectSlug );
